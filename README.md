@@ -19,7 +19,7 @@
 
 ```bash
 
-- Run the script script_preparation_final.R with source button (Ctrl+Shift+S)
+- Run script_preparation_final.R with source button (Ctrl+Shift+S)
 - We have our dataset listings so we can run server.R now
 ```
 
