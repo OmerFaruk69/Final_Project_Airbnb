@@ -12,7 +12,8 @@
 ```bash
 - git clone https://github.com/OmerFaruk69/Final_Project_Airbnb.git
 - open RStudio application
-- open script_preparation_final.R, server.R
+- open script_preparation_final.R in Final_Project_Airbnb\Scripts
+- open server.R in Final_Project_Airbnb\App
 ```
 
 ## Build
