@@ -1,0 +1,63 @@
+---
+title: "Our Shiny app for Airbnb data visualization"
+author: "Omer, Angéla & Ludovic"
+date: "November 2020"
+output: 
+  ioslides_presentation:
+    incremental: true
+    smaller: true
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction {.smaller}
+
+Here is the introduction tab for our Shiny app. You can see a little description and the three different cities you can explore in this app, displayed on a world map.      
+![Screen taken on the app](screen1.jpg){ width=80% }  
+
+# Compare two or more cities 
+In this tab, you will be able to compare features from cities. The feature selection is made on the side panel.  
+First, you have to select two or more cities to compare.   
+Secondly, select the feature you're interested in : revenue, price or availability over the 30 last days.   
+Then, choose a plotting type: you can plot an histogram, a density plot or a boxplot. You can also compare the average.   
+Finally, you have the possibility to add another feature to compare.    
+![Screen taken on the app](screen2.jpg){ width=30% }
+
+## Example
+*Histogram example with two cities, one feature*  
+![Screen taken on the app](screen3.jpg){ width=75% }  
+Here is an example where you can compare the Airbnb listings **revenue over the last 30 days** of **Berlin** and **Amsterdam** with an **histogram**.   
+
+## Example 
+*Average example with three cities*  
+![Screen taken on the app](screen3b.jpg){ width=75% }  
+In this example, you can compare the **average price** of Airbnb listings in the three cities : **San Diego, Amsterdam** and **Berlin**.
+
+# Deep dive into one city 
+In this tab, you will be able to deep dive into one city and display its features.  
+This tab allows you also to show a map of the city you're interested in and to show any feature you want.    
+![Screen taken on the app](screen4.jpg){ width=70% }  
+
+## Example 
+*Density plot example with one city, one features*     
+![Screen taken on the app](screen5.jpg){ width=75% }   
+Here is displayed an example of **density plot** to compare the **availability over the last 30 days** proposed in **San Diego**.  
+
+## Example 
+*Boxplot example with one city, two features*  
+![Screen taken on the app](screen6.jpg){ width=75% }  
+Here is displayed an example of **boxplot** to compare the **revenue over the last 30 days** based on the number of **bedrooms** proposed in **Amsterdam**.
+
+## Example 
+This tab also allows you to display data on a map.   
+![Screen taken on the app](screen7.jpg){ width=60% }  
+Here are the listings of **Berlin**, clustered in the neighborhoods of the city.  
+Zooming in, you can see the feature you want to see. Here, you can observe the **room type** of a particular Airbnb location.
+![Screen taken on the app](screen8.jpg){ width=62% }  
+
+
+# Conclusion
+We hope that this presentation helped you to understand how to navigate in this app. For any remarks or questions, please contact us.
